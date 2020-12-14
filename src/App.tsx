@@ -1,26 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import {CssBaseline, AppBar, Toolbar, Typography }from '@material-ui/core/';
+
+import useStyles from './style';
+
+import CustomGrid from './component/customGrid'
+import Footer from './component/footer'
+import Hero from './component/hero'
+
+
+
+export default function App() {
+  const classes = useStyles();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <CssBaseline />
+      <AppBar position="relative">
+        <Toolbar>
+          {/* <CameraIcon className={classes.icon} /> */}
+          <Typography variant="h6" color="inherit" noWrap>
+            Demo assignment
+          </Typography>
+        </Toolbar>
+      </AppBar>
+      <main>
+        {/* Hero unit */}
+        <Hero />
+        {/*Hero Unit End  */}
+       
+        {/* Custom Grid unit */}
+        <CustomGrid />
+        {/*Custom Grid End  */}
+
+        
+      </main>
+      {/* Footer */}
+      <Footer />
+      {/* End footer */}
+    </React.Fragment>
   );
 }
-
-export default App;
