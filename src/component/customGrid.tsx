@@ -1,8 +1,9 @@
 import React from 'react';
 
 import { Card, CardContent, CardMedia, CardActions  } from '@material-ui/core/'
-import { Container, Typography, Grid, IconButton }  from '@material-ui/core/';
-import { FavoriteIcon, ShareIcon } from '@material-ui/icons/'
+import { Container, Typography, Grid, IconButton, Button }  from '@material-ui/core/';
+import FavoriteIcon  from '@material-ui/icons/Favorite'
+import ShareIcon  from '@material-ui/icons/Share'
 import useStyles from '../style';
 
 const cards = [1, 2, 3, 4, 5, 6];
@@ -38,6 +39,11 @@ function CustomGrid() {
                   <IconButton aria-label="share">
                     <ShareIcon />
                   </IconButton>
+
+                  <Button size="small" color="primary">
+                    Learn More
+                  </Button>
+
                 </CardActions>
 
                 </Card>
