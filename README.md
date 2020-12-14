@@ -2,6 +2,6 @@
 
 
 I am Kunal Gupta. I like to play with software.
-check out my live code on https://react-ts-demo-92c1e.web.app
+check out my live [code on](https://react-ts-demo-92c1e.web.app) 
 
 Made By Kunal Gupta With ❤️

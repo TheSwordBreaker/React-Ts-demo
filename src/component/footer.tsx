@@ -28,8 +28,12 @@ export default function Footer() {
           Footer
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Something here to give the footer a purpose!
+          Contact Me On :-  Kunalguptadev007@gmail.com 
         </Typography>
+        <Typography  align="center" color="textSecondary" component="p">
+          I am Always happy to work with new cutting else technology like funadb, graphql,wasm and much more..
+        </Typography>
+        <br/>
         <Copyright />
       </footer>
   );
