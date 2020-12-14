@@ -31,7 +31,7 @@ export default function Footer() {
           Contact Me On :-  Kunalguptadev007@gmail.com 
         </Typography>
         <Typography  align="center" color="textSecondary" component="p">
-          I am Always happy to work with new cutting else technology like funadb, graphql,wasm and much more..
+          I am Always happy to work with new cutting edge technology like funadb, graphql,wasm and much more..
         </Typography>
         <br/>
         <Copyright />

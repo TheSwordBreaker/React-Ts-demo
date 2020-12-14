@@ -7,6 +7,7 @@ import ShareIcon  from '@material-ui/icons/Share'
 import useStyles from '../style';
 
 const cards = [1, 2, 3, 4, 5, 6];
+
 function CustomGrid() {
   const classes = useStyles();
   return (
@@ -39,9 +40,7 @@ function CustomGrid() {
                   <IconButton aria-label="share">
                     <ShareIcon />
                   </IconButton>
-
                 </CardActions>
-
                 </Card>
               </Grid>
             ))}
